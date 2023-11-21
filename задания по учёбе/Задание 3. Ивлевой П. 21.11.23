@@ -1,0 +1,7 @@
+
+import requests
+
+ludya = 'https://fakestoreapi.com/users?sort=desc'
+sait = requests.get(ludya)
+print(sait.status_code)
+print(sait.text)
